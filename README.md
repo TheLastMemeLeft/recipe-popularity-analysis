@@ -36,17 +36,23 @@ near-zero correlation with rating** — steps, time, ingredients, and all nutrit
 fields sit between -0.01 and +0.01. The only feature that moves rating is the
 number of reviews.
 
-<iframe src="assets/fig_corr.html" width="800" height="450" frameborder="0"></iframe>
+<div>
+<iframe src="assets/fig_corr.html" width="800" height="450" frameborder="0" style="border:none;max-width:100%"></iframe>
+</div>
 
 Second, **rating rises steadily with the number of reviews**: recipes with one
 review average 4.57, while recipes with 11+ reviews average 4.74.
 
-<iframe src="assets/fig_rating_by_reviews.html" width="800" height="450" frameborder="0"></iframe>
+<div>
+<iframe src="assets/fig_rating_by_reviews.html" width="800" height="450" frameborder="0" style="border:none;max-width:100%"></iframe>
+</div>
 
 The average rating itself is heavily skewed toward 5 stars, which is why we later
 frame prediction as classification rather than regression.
 
-<iframe src="assets/fig_rating_dist.html" width="800" height="450" frameborder="0"></iframe>
+<div>
+<iframe src="assets/fig_rating_dist.html" width="800" height="450" frameborder="0" style="border:none;max-width:100%"></iframe>
+</div>
 
 ## Assessment of Missingness
 
@@ -72,7 +78,9 @@ Attention is strongly associated with higher ratings, and the gap dwarfs
 anything the recipe's own attributes produced. (This is an association, not
 proof of causation.)
 
-<iframe src="assets/fig_perm_test.html" width="800" height="450" frameborder="0"></iframe>
+<div>
+<iframe src="assets/fig_perm_test.html" width="800" height="450" frameborder="0" style="border:none;max-width:100%"></iframe>
+</div>
 
 ## Framing a Prediction Problem
 
